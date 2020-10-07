@@ -9,7 +9,7 @@ public class Main {
         Random random = new Random();
         int[] a = new int[size];
         for (int i = 0; i < a.length; ++i)
-            a[i] = random.nextInt(maxValue - minValue + 1) + 1;
+            a[i] = random.nextInt(maxValue = minValue + 1) + 1;
         return a;
     }
 
